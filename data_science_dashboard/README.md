@@ -1,68 +1,10 @@
-🧠 Overview
-A stock data dashboard built using Taipy GUI, with support for machine learning predictions using:
+Stock Data Dashboard Application – Python, Taipy, Pandas, Scikit-learn, TensorFlow
+Developed an interactive dashboard for analyzing and predicting S&P 500 stock trends using Python and the Taipy GUI framework. 
+Integrated data filtering, visualization (Plotly), and machine learning models (Linear Regression, KNN, RNN with TensorFlow)
+to forecast stock prices. Built dynamic UI components for user-driven analysis by country, company, and date range, and implemented
+backend logic to support real-time updates and data processing.
 
-Linear Regression
 
-KNN (K-Nearest Neighbors)
-
-RNN (Recurrent Neural Network) (if TensorFlow is available)
-
-📦 Main Components
-📊 Data
-Loads S&P 500 stock prices and company information from CSV files.
-
-Filters stock data based on selected country, company, and date range.
-
-🎨 User Interface (GUI)
-Created using taipy.gui.builder:
-
-Logo and title
-
-Date range selector
-
-Dropdowns for country and company
-
-Dynamic chart of stock values (plotly)
-
-Prediction display for selected company
-
-🧮 Prediction Models
-Each model uses a sliding window of historical data to predict the next value:
-
-get_lin() – Linear Regression
-
-get_knn() – KNN Regressor
-
-get_rnn() – Simple RNN using Keras (if TensorFlow is installed)
-
-📈 Graph Plotting
-build_graph_data() – Prepares stock values for selected company(ies)
-
-display_graph() – Uses Plotly to show line charts of stock performance
-
-⚙️ Taipy Configuration
-Defines data nodes, tasks, and scenarios:
-
-Each model and data transformation is encapsulated as a task
-
-Connected into a scenario for execution and update on GUI interaction
-
-⚠️ Other Highlights
-Handles missing TensorFlow gracefully
-
-Uses icons for UI clarity
-
-Modular function design with clear I/O
-
-# data_science_dashboard
-
-dynamic data science dashboard with Taipy Scenarios
-
-## Introduction
-
-This repository stores the code of a Full Stack GUI App Project credit featured in from  <a href="https://youtu.be/hxYIpH94u20" target="_blank">Youtube tutorial</a>.
-<br>
-<br>
 
 ## Requirements
 - `taipy >= 4.0.0` (previous versions do no have `tp.Orchestrator()` but use `tp.Core()` instead)
