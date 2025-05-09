@@ -1,0 +1,22 @@
+{
+"id": "DATANODE_graph_data_725bceda-07b3-4a64-9339-9cada8030dd6",
+"config_id": "graph_data",
+"scope": "<Scope.SCENARIO: 1>",
+"storage_type": "pickle",
+"owner_id": "SCENARIO_scenario_63b5b62b-cc6e-4d74-950d-7544b206818b",
+"parent_ids": [
+"TASK_build_graph_data_936f1a58-712e-4610-9fea-47dc770d59fd"
+],
+"last_edit_date": null,
+"edits": [],
+"version": "1bdd7bf0-1f08-46a8-8156-cccb69db16ff",
+"validity_days": null,
+"validity_seconds": null,
+"edit_in_progress": false,
+"editor_id": null,
+"editor_expiration_date": null,
+"data_node_properties": {
+"is_generated": true,
+"path": "user_data/pickles/DATANODE_graph_data_725bceda-07b3-4a64-9339-9cada8030dd6.p"
+}
+}

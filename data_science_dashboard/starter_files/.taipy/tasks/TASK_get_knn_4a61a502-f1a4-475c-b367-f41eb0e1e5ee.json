@@ -1,0 +1,20 @@
+{
+"id": "TASK_get_knn_4a61a502-f1a4-475c-b367-f41eb0e1e5ee",
+"owner_id": "SCENARIO_scenario_63b5b62b-cc6e-4d74-950d-7544b206818b",
+"parent_ids": [
+"SCENARIO_scenario_63b5b62b-cc6e-4d74-950d-7544b206818b"
+],
+"config_id": "get_knn",
+"input_ids": [
+"DATANODE_dates_ba1d7b85-8b53-40be-90cb-3ef6aaaeea3a",
+"DATANODE_company_6b5db576-0db1-4521-9bfd-dfe89c2e75f4"
+],
+"function_name": "get_knn",
+"function_module": "__main__",
+"output_ids": [
+"DATANODE_knn_pred_32671c06-184e-48fb-98c1-ebc7530eb4fb"
+],
+"version": "1bdd7bf0-1f08-46a8-8156-cccb69db16ff",
+"skippable": true,
+"properties": {}
+}
