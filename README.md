@@ -1,4 +1,4 @@
-tock Data Dashboard Application – Python, Taipy, Pandas, Scikit-learn, TensorFlow
+Stock Data Dashboard Application – Python, Taipy, Pandas, Scikit-learn, TensorFlow
 Developed an interactive dashboard for analyzing and predicting S&P 500 stock trends using Python and the Taipy GUI framework. Integrated data filtering, visualization (Plotly), and machine learning models (Linear Regression, KNN, RNN with TensorFlow) to forecast stock prices. Built dynamic UI components for user-driven analysis by country, company, and date range, and implemented backend logic to support real-time updates and data processing.
 ## Introduction
 
